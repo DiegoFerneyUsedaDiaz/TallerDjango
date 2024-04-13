@@ -1,0 +1,25 @@
+Ver la version de python
+python
+
+Instalacion Django
+python -m pip install Django
+
+Crear carpeta del Proyecto
+django-admin startproject nombreproyecto
+
+Iniciar Servidor
+python manage.py runserver
+py .\manage.py runserver  /powershell
+
+crear aplicacion
+python manage.py startapp libreria
+ py .\manage.py startapp nombre  /powershell
+
+crear entorno virtual carpeta del proyecto
+py -m venv venv
+
+activar el entorno virtual
+.\venv\Scripts\activate
+
+migrar app a la base de datos mensaje que sale cuando se ejecuta el runserver
+py .\manage.py migrate
